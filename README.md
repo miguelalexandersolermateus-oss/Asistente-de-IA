@@ -6,3 +6,7 @@ El proyecto consiste en la creación de un asistente virtual basado en inteligen
 ## 2. Mapa de procesos(Conocimientos a apropiar)
 
 <img width="1203" height="680" alt="image" src="https://github.com/user-attachments/assets/5a975ac9-0a01-4f86-96b6-79e54a092a35" />
+
+## 3. Semana 4
+
+<img width="431" height="666" alt="image" src="https://github.com/user-attachments/assets/c2a98257-2c67-48c9-a404-1e1e83ca0df4" />
