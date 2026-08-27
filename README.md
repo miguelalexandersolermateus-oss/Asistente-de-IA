@@ -12,3 +12,7 @@ El proyecto consiste en la creación de un asistente virtual basado en inteligen
 <img width="1619" height="780" alt="image" src="https://github.com/user-attachments/assets/e70248ae-e84a-4bf3-9cea-253db691ea0a" />
 
 <img width="431" height="666" alt="image" src="https://github.com/user-attachments/assets/c2a98257-2c67-48c9-a404-1e1e83ca0df4" />
+
+## 4. semana 5
+
+<img width="757" height="870" alt="image" src="https://github.com/user-attachments/assets/cb6797c0-f58a-4fa9-ba3a-64417641f8c9" />
