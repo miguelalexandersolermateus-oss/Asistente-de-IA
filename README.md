@@ -16,3 +16,56 @@ El proyecto consiste en la creación de un asistente virtual basado en inteligen
 ## 4. semana 5
 
 <img width="757" height="870" alt="image" src="https://github.com/user-attachments/assets/cb6797c0-f58a-4fa9-ba3a-64417641f8c9" />
+
+## 🧠 Arquitectura de Atención
+
+### ¿Qué es el filtro de atención?
+
+FinUni utiliza un filtro de atención para identificar la información relevante para la administración financiera del estudiante. El sistema prioriza información relacionada con ingresos, egresos, ahorro, presupuesto y metas financieras.
+
+### 🔊 Definición de "Ruido"
+
+Se considera ruido toda información que no sea necesaria para analizar la situación financiera del estudiante.
+
+Ejemplos:
+- Conversaciones casuales.
+- Información repetida.
+- Información que no está relacionada con las finanzas.
+- Datos que no aportan al análisis financiero.
+
+### 🎯 Reglas de Atención
+
+1. Si el mensaje contiene información sobre ingresos, egresos, ahorro o presupuesto, FinUni le dará prioridad alta.
+2. Si el usuario realiza una pregunta financiera, FinUni debe procesarla como información prioritaria.
+3. Si la información no está relacionada con las finanzas, se considera ruido.
+4. Si falta un dato importante, FinUni debe solicitarlo al usuario.
+5. Si el usuario expresa preocupación por su situación económica, FinUni debe adaptar su respuesta de manera empática.
+
+### 📊 Prioridad de información
+
+| Información | Prioridad |
+|---|---:|
+| Ingresos | 5/5 |
+| Egresos | 5/5 |
+| Metas de ahorro | 5/5 |
+| Presupuesto | 5/5 |
+| Fechas de pagos | 4/5 |
+| Estado emocional | 4/5 |
+| Preguntas generales | 3/5 |
+| Conversación casual | 1/5 |
+| Información irrelevante | 0/5 |
+
+### 💡 Ejemplo
+
+**Entrada:**
+
+> "Hoy fui a la universidad y gasté $20.000 en transporte."
+
+**Información relevante:**
+- Valor: $20.000
+- Categoría: Transporte
+- Tipo: Egreso
+
+**Resultado:**
+
+> FinUni registra un egreso de $20.000 en la categoría transporte.
