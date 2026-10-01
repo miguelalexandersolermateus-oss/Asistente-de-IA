@@ -70,7 +70,6 @@ Ejemplos:
 
 > FinUni registra un egreso de $20.000 en la categoría transporte.
 >### semana 7
-> ## 🧠 Semana 7 — Memoria a Largo Plazo
 
 ### Estructura de la Base de Conocimiento de FinUni
 
@@ -87,3 +86,32 @@ FinUni organizará su memoria a largo plazo en diferentes categorías para almac
 | 🎓 Información universitaria | Gastos relacionados con estudios | Matrícula, semestre, libros, transporte |
 | 🧠 Hábitos financieros | Comportamiento económico | Frecuencia de ahorro, gastos impulsivos, cumplimiento del presupuesto |
 | 💡 Educación financiera | Conocimientos financieros | Ahorro, presupuesto, intereses, deudas |
+
+### ¿Como funciona?
+FINUNI
+│
+├── 👤 Perfil del estudiante
+│
+├── 💰 Ingresos
+│   ├── Beca
+│   ├── Salario
+│   └── Ayuda familiar
+│
+├── 💸 Egresos
+│   ├── Alimentación
+│   ├── Transporte
+│   ├── Matrícula
+│   └── Materiales
+│
+├── 🎯 Metas de ahorro
+│   ├── Matrícula
+│   ├── Computador
+│   └── Fondo de emergencia
+│
+├── 📊 Presupuesto
+│
+├── 📈 Historial financiero
+│
+├── 🧠 Hábitos financieros
+│
+└── 💡 Educación financiera
