@@ -69,6 +69,8 @@ Ejemplos:
 **Resultado:**
 
 > FinUni registra un egreso de $20.000 en la categoría transporte.
+>
+> 
 >### semana 7
 
 ### Estructura de la Base de Conocimiento de FinUni
