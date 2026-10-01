@@ -69,3 +69,21 @@ Ejemplos:
 **Resultado:**
 
 > FinUni registra un egreso de $20.000 en la categoría transporte.
+>### semana 7
+> ## 🧠 Semana 7 — Memoria a Largo Plazo
+
+### Estructura de la Base de Conocimiento de FinUni
+
+FinUni organizará su memoria a largo plazo en diferentes categorías para almacenar y consultar información financiera relevante de los estudiantes.
+
+| Carpeta de Memoria | Tipo de información | Ejemplos |
+|---|---|---|
+| 👤 Perfil del estudiante | Datos personales y académicos | Edad, carrera, semestre, universidad |
+| 💰 Ingresos | Fuentes de dinero | Salario, beca, ayuda familiar, emprendimiento |
+| 💸 Egresos | Gastos del estudiante | Transporte, alimentación, matrícula, materiales |
+| 🎯 Metas de ahorro | Objetivos financieros | Matrícula, computador, materiales, fondo de emergencia |
+| 📊 Presupuesto | Planificación financiera | Presupuesto mensual, límites de gasto |
+| 📈 Historial financiero | Datos anteriores | Ingresos, gastos y ahorros de meses anteriores |
+| 🎓 Información universitaria | Gastos relacionados con estudios | Matrícula, semestre, libros, transporte |
+| 🧠 Hábitos financieros | Comportamiento económico | Frecuencia de ahorro, gastos impulsivos, cumplimiento del presupuesto |
+| 💡 Educación financiera | Conocimientos financieros | Ahorro, presupuesto, intereses, deudas |
