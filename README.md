@@ -187,3 +187,6 @@ Analizar información necesaria
    Generar respuesta
         ↓
       USUARIO
+
+<img width="1063" height="443" alt="image" src="https://github.com/user-attachments/assets/35f1bf12-1204-4e00-af79-8094bbe9e370" />
+
