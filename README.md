@@ -139,9 +139,6 @@ Estos datos pueden utilizarse para calcular el presupuesto y generar recomendaci
 ### 🎯 Objetivo
 
 La memoria de trabajo permite que FinUni mantenga el contexto necesario durante una conversación, evitando sobrecargar el sistema con información irrelevante.
-## 🧠 Semana 10 - Protocolo de Comunicación — FinUni
-
-<img width="921" height="614" alt="image" src="https://github.com/user-attachments/assets/e3914ff6-7e2a-49a2-9457-7d997744871d" />
 
 # 🚀 Fase 4: Diseñando la Voz y la Pragmática de FinUni
 
