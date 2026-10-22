@@ -415,7 +415,8 @@ THEN la meta es viable bajo las condiciones actuales.
 
 ### Diagrama del árbol de decisión
 
-![Árbol de Decisión de FinUni](imagenes/arbol_decision_finuni_semana13.png)
+![Árbol de Decisión de FinUni]<img width="792" height="946" alt="image" src="https://github.com/user-attachments/assets/aa7c23fe-684f-43f7-851c-78555cd52e49" />
+
 
 ### Conclusión
 
