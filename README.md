@@ -336,3 +336,90 @@ El asistente no debe asumir que toda expresión positiva representa felicidad ni
 
 La finalidad es construir una experiencia conversacional útil, respetuosa y confiable para los estudiantes universitarios.
 
+
+## 🧠 Semana 13 — El Árbol de la Verdad
+
+### Árbol de Decisión Principal de FinUni
+
+**Tema:** Razonamiento deductivo y resolución de problemas.
+
+### Objetivo
+
+Diseñar un algoritmo lógico que permita a FinUni analizar los problemas financieros de los estudiantes universitarios y proponer soluciones personalizadas mediante condiciones IF, AND y THEN.
+
+### Funcionamiento del árbol
+
+1. FinUni recibe una consulta financiera.
+2. Comprueba si existen datos suficientes de ingresos y egresos.
+3. Compara los ingresos con los gastos.
+4. Calcula el saldo disponible.
+5. Identifica si el estudiante tiene una meta de ahorro.
+6. Determina si la meta es viable dentro del plazo establecido.
+7. Genera una recomendación según los resultados.
+
+### Reglas lógicas
+
+**Regla 1: Información insuficiente**
+
+IF faltan ingresos OR egresos necesarios  
+THEN solicitar los datos faltantes.
+
+**Regla 2: Déficit financiero**
+
+IF egresos > ingresos  
+THEN generar una alerta y recomendar revisar el presupuesto.
+
+**Regla 3: Presupuesto equilibrado**
+
+IF egresos = ingresos  
+THEN recomendar ajustes para crear capacidad de ahorro.
+
+**Regla 4: Capacidad de ahorro**
+
+IF ingresos > egresos  
+THEN calcular el saldo disponible.
+
+**Regla 5: Meta de ahorro viable**
+
+IF saldo disponible > 0  
+AND existe una meta de ahorro  
+AND (ahorro mensual disponible × meses restantes) >= monto faltante  
+THEN proponer un plan de ahorro periódico.
+
+**Regla 6: Meta de ahorro no viable**
+
+IF existe una meta  
+AND el ahorro disponible no alcanza para cumplirla en el plazo  
+THEN recomendar ajustar el plazo, el monto o los gastos.
+
+### Ejemplo práctico
+
+Un estudiante universitario registra:
+
+- Ingresos mensuales: $1.200.000
+- Egresos mensuales: $900.000
+- Saldo disponible: $300.000
+- Meta de ahorro: $1.500.000
+- Plazo: 5 meses
+- Ahorro inicial: $0
+
+**Evaluación lógica:**
+
+IF ingresos > egresos  
+AND ahorro disponible × 5 >= $1.500.000  
+THEN la meta es viable bajo las condiciones actuales.
+
+**Respuesta esperada de FinUni:**
+
+"Según tus ingresos y gastos registrados, dispones de $300.000 mensuales. Si mantienes ese saldo y puedes ahorrarlo completamente durante cinco meses, alcanzarías tu meta de $1.500.000."
+
+### Diagrama del árbol de decisión
+
+![Árbol de Decisión de FinUni](imagenes/arbol_decision_finuni_semana13.png)
+
+### Conclusión
+
+El árbol de decisión permite que FinUni transforme la información financiera de un estudiante en recomendaciones lógicas y personalizadas.
+
+Mediante condiciones IF, AND y THEN, el asistente puede identificar dificultades económicas, evaluar la capacidad de ahorro y proponer estrategias para alcanzar metas financieras.
+
