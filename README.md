@@ -420,7 +420,202 @@ THEN la meta es viable bajo las condiciones actuales.
 
 ### Conclusión
 
+#  Semana 14 — El Guardián Ético
+
+## 5. Lógica y Ética de FinUni
+
+### Objetivo
+
+FinUni debe tomar decisiones financieras de manera justa, objetiva y responsable. Para lograrlo, debe identificar y evitar los sesgos cognitivos que puedan afectar sus recomendaciones a los estudiantes universitarios.
+
+### ¿Qué es un sesgo cognitivo?
+
+Es un error de pensamiento que puede influir en la interpretación de la información y provocar decisiones injustas o equivocadas.
+
+### Identificación de sesgos cognitivos
+
+| Sesgo | ¿Cómo puede afectar a FinUni? | Ejemplo |
+|---|---|---|
+| Estereotipo de género | Suponer que un estudiante administra mejor o peor su dinero por su género. | Recomendar diferentes presupuestos según si es hombre o mujer. |
+| Sesgo de confirmación | Buscar únicamente información que confirme una conclusión inicial. | Creer que un estudiante gasta demasiado y analizar solamente sus egresos. |
+| Sesgo de disponibilidad | Dar demasiada importancia a un gasto reciente y olvidar el historial completo. | Considerar que el estudiante siempre gasta mucho porque ayer realizó una compra grande. |
+| Sesgo de negatividad | Concentrarse solamente en los errores financieros del estudiante. | Ignorar sus avances de ahorro por haber superado el presupuesto un mes. |
+| Sesgo de anclaje | Basar las recomendaciones en el primer valor registrado sin actualizarlo. | Mantener un presupuesto antiguo aunque los ingresos hayan cambiado. |
+
+###  Protocolo Anti-Sesgos
+
+FinUni implementará las siguientes reglas de seguridad:
+
+**Regla 1 — Igualdad de trato**
+
+IF dos estudiantes tienen situaciones financieras equivalentes  
+THEN deben recibir recomendaciones basadas en los mismos criterios, independientemente de su género, edad u otras características personales.
+
+**Regla 2 — Verificación de información**
+
+IF FinUni detecta una posible contradicción entre los ingresos y egresos registrados  
+THEN debe solicitar una aclaración antes de generar una recomendación.
+
+**Regla 3 — Análisis objetivo**
+
+IF FinUni va a evaluar los hábitos financieros  
+THEN debe considerar el historial, los ingresos, los egresos y las metas del estudiante, no solamente un dato aislado.
+
+**Regla 4 — No discriminación**
+
+IF una recomendación depende de un estereotipo o característica personal irrelevante  
+THEN FinUni debe bloquear esa regla y realizar el análisis utilizando información financiera pertinente.
+
+**Regla 5 — Transparencia**
+
+IF FinUni genera una recomendación financiera  
+THEN debe explicar qué datos utilizó y cómo llegó a esa conclusión.
+
+###  Regla de Seguridad Principal
+
+> FinUni nunca debe tomar decisiones financieras basándose en estereotipos, prejuicios o suposiciones personales. Todas sus recomendaciones deben fundamentarse en datos relevantes, verificables y relacionados con la situación económica del estudiante.
+
+###  Ejemplo práctico
+
+**Situación:**
+
+Dos estudiantes tienen los mismos ingresos, gastos y metas de ahorro, pero son de diferente género.
+
+**Decisión incorrecta:**
+
+Ofrecer recomendaciones diferentes basándose en estereotipos de género.
+
+**Decisión correcta:**
+
+FinUni analiza los datos financieros de ambos estudiantes y ofrece recomendaciones equivalentes, teniendo en cuenta sus necesidades y objetivos reales.
+
+###  Conclusión
+
+El Guardián Ético permite que FinUni sea un asistente justo, transparente y responsable. Su función es evitar decisiones discriminatorias y garantizar que las recomendaciones financieras se basen en información objetiva.
+
 El árbol de decisión permite que FinUni transforme la información financiera de un estudiante en recomendaciones lógicas y personalizadas.
 
 Mediante condiciones IF, AND y THEN, el asistente puede identificar dificultades económicas, evaluar la capacidad de ahorro y proponer estrategias para alcanzar metas financieras.
+
+
+#  Semana 15 — La Prueba de Turing Lógica
+
+## 6. Pruebas y Validación del Árbol de Decisiones
+
+### Objetivo
+
+Realizar pruebas al árbol de decisiones de FinUni para comprobar que su lógica funcione correctamente, identificar errores en las condiciones y corregir las rutas que no generen una respuesta adecuada.
+
+###  Simulación de casos de prueba (Dry Run)
+
+Se realizarán diferentes pruebas utilizando situaciones financieras de estudiantes universitarios.
+
+| Caso | Situación del estudiante | Resultado esperado | Estado |
+|---|---|---|---|
+| 1 | Los ingresos son mayores que los egresos. | Calcular el saldo disponible y proponer ahorro. | Correcto |
+| 2 | Los egresos superan los ingresos. | Generar una alerta de déficit financiero. | Correcto |
+| 3 | Faltan datos de ingresos o egresos. | Solicitar la información faltante. | Correcto |
+| 4 | El estudiante tiene una meta de ahorro alcanzable. | Crear un plan de ahorro. | Correcto |
+| 5 | El estudiante tiene una meta que no puede alcanzar en el plazo establecido. | Recomendar ajustar el plazo o la cantidad. | Correcto |
+
+###  Errores identificados y correcciones
+
+**Error 1: Información incompleta**
+
+Problema: El sistema intentaba calcular el ahorro sin conocer todos los ingresos y egresos.
+
+Corrección: Solicitar los datos faltantes antes de realizar los cálculos.
+
+**Error 2: Saldo negativo**
+
+Problema: El sistema podía recomendar ahorrar aunque los gastos fueran mayores que los ingresos.
+
+Corrección: Generar primero una alerta financiera y recomendar revisar el presupuesto.
+
+**Error 3: Meta de ahorro imposible**
+
+Problema: El sistema recomendaba una meta sin comprobar si el estudiante podía alcanzarla en el tiempo disponible.
+
+Corrección: Comparar el ahorro necesario con la capacidad de ahorro mensual.
+
+###  Árbol de Decisión Corregido (Versión 2.0)
+
+El siguiente diagrama representa la versión mejorada del razonamiento lógico de FinUni.
+
+```mermaid
+flowchart TD
+    A["INICIO: Usuario registra sus finanzas"] --> B["Analizar ingresos y egresos"]
+    B --> C{"¿Hay datos suficientes?"}
+
+    C -->|No| D["Solicitar datos faltantes"]
+    D --> B
+
+    C -->|Sí| E["Calcular saldo disponible"]
+    E --> F{"¿Ingresos mayores que egresos?"}
+
+    F -->|No| G{"¿Ingresos iguales a egresos?"}
+    G -->|No| H["Alerta: déficit financiero"]
+    H --> I["Revisar gastos y ajustar presupuesto"]
+
+    G -->|Sí| J["Presupuesto equilibrado"]
+    J --> K["Identificar gastos reducibles"]
+
+    F -->|Sí| L["Calcular capacidad de ahorro"]
+    L --> M{"¿Tiene una meta de ahorro?"}
+
+    M -->|No| N["Proponer una meta de ahorro"]
+    M -->|Sí| O["Calcular ahorro necesario"]
+
+    N --> O
+    O --> P{"¿Puede alcanzar la meta a tiempo?"}
+
+    P -->|Sí| Q["Crear plan de ahorro"]
+    P -->|No| R["Ajustar plazo o cantidad"]
+
+    I --> S["Generar recomendaciones"]
+    K --> S
+    Q --> S
+    R --> S
+
+    S --> T["FINUNI ENTREGA SU RESPUESTA"]
+```
+
+### 📊 Prueba práctica del algoritmo
+
+**Datos del estudiante:**
+
+- Ingresos mensuales: $1.200.000.
+- Egresos mensuales: $900.000.
+- Saldo disponible: $300.000.
+- Meta de ahorro: $1.500.000.
+- Tiempo disponible: 5 meses.
+
+**Evaluación lógica:**
+
+IF ingresos > egresos  
+THEN calcular saldo disponible.
+
+IF saldo disponible > 0  
+AND existe una meta de ahorro  
+AND (ahorro mensual × meses disponibles) >= cantidad faltante  
+THEN la meta es alcanzable.
+
+**Resultado:**
+
+$300.000 × 5 = $1.500.000.
+
+**Respuesta de FinUni:**
+
+"¡Buenas noticias! Tu meta de ahorro es alcanzable. Si ahorras $300.000 cada mes durante cinco meses, podrás reunir los $1.500.000 que necesitas para tu objetivo."
+
+###  Resultado de la prueba
+
+Después de realizar las pruebas, el árbol de decisiones de FinUni cuenta con rutas para manejar información incompleta, situaciones de déficit, presupuestos equilibrados y metas de ahorro.
+
+Las correcciones permiten evitar recomendaciones incorrectas y mejorar el funcionamiento lógico del asistente.
+
+###  Conclusión
+
+La Prueba de Turing Lógica permite comprobar que FinUni tome decisiones coherentes ante diferentes situaciones financieras. La versión 2.0 del árbol incorpora validaciones y rutas de recuperación para ofrecer recomendaciones más precisas y responsables.
+
 
