@@ -79,23 +79,23 @@ FinUni organizará su memoria a largo plazo en diferentes categorías para almac
 
 | Carpeta de Memoria | Tipo de información | Ejemplos |
 |---|---|---|
-| 👤 Perfil del estudiante | Datos personales y académicos | Edad, carrera, semestre, universidad |
-| 💰 Ingresos | Fuentes de dinero | Salario, beca, ayuda familiar, emprendimiento |
-| 💸 Egresos | Gastos del estudiante | Transporte, alimentación, matrícula, materiales |
-| 🎯 Metas de ahorro | Objetivos financieros | Matrícula, computador, materiales, fondo de emergencia |
-| 📊 Presupuesto | Planificación financiera | Presupuesto mensual, límites de gasto |
-| 📈 Historial financiero | Datos anteriores | Ingresos, gastos y ahorros de meses anteriores |
-| 🎓 Información universitaria | Gastos relacionados con estudios | Matrícula, semestre, libros, transporte |
-| 🧠 Hábitos financieros | Comportamiento económico | Frecuencia de ahorro, gastos impulsivos, cumplimiento del presupuesto |
-| 💡 Educación financiera | Conocimientos financieros | Ahorro, presupuesto, intereses, deudas |
+|  Perfil del estudiante | Datos personales y académicos | Edad, carrera, semestre, universidad |
+|  Ingresos | Fuentes de dinero | Salario, beca, ayuda familiar, emprendimiento |
+|  Egresos | Gastos del estudiante | Transporte, alimentación, matrícula, materiales |
+|  Metas de ahorro | Objetivos financieros | Matrícula, computador, materiales, fondo de emergencia |
+|  Presupuesto | Planificación financiera | Presupuesto mensual, límites de gasto |
+|  Historial financiero | Datos anteriores | Ingresos, gastos y ahorros de meses anteriores |
+|  Información universitaria | Gastos relacionados con estudios | Matrícula, semestre, libros, transporte |
+|  Hábitos financieros | Comportamiento económico | Frecuencia de ahorro, gastos impulsivos, cumplimiento del presupuesto |
+|  Educación financiera | Conocimientos financieros | Ahorro, presupuesto, intereses, deudas |
 
-## 🧠 Semana 8 — La RAM Cognitiva
+##  Semana 8 — La RAM Cognitiva
 
 ### Memoria de Trabajo de FinUni
 
 La memoria de trabajo de FinUni es el espacio temporal donde el asistente mantiene la información más importante de la conversación actual. Su función es permitir que FinUni pueda comprender el contexto y responder correctamente sin tener que consultar toda su memoria a largo plazo en cada momento.
 
-### 📦 Ventana de Contexto
+###  Ventana de Contexto
 
 Para el diseño inicial de FinUni se establece una capacidad de **7 elementos relevantes**, tomando como referencia el modelo de memoria de trabajo **7 ± 2**.
 
@@ -103,25 +103,25 @@ Los elementos que FinUni prioriza son:
 
 | Prioridad | Elemento | Ejemplo |
 |---|---|---|
-| 1 | 💰 Ingresos | Beca de $1.500.000 |
-| 2 | 💸 Egresos | Transporte: $200.000 |
-| 3 | 🎯 Meta financiera | Ahorrar para comprar un computador |
-| 4 | 📊 Presupuesto | Presupuesto mensual de $1.000.000 |
-| 5 | 💵 Ahorro actual | $250.000 ahorrados |
-| 6 | 📅 Fecha o periodo | Gastos del mes actual |
-| 7 | ❓ Consulta actual | "¿Cuánto puedo ahorrar este mes?" |
+| 1 |  Ingresos | Beca de $1.500.000 |
+| 2 |  Egresos | Transporte: $200.000 |
+| 3 |  Meta financiera | Ahorrar para comprar un computador |
+| 4 |  Presupuesto | Presupuesto mensual de $1.000.000 |
+| 5 |  Ahorro actual | $250.000 ahorrados |
+| 6 |  Fecha o periodo | Gastos del mes actual |
+| 7 |  Consulta actual | "¿Cuánto puedo ahorrar este mes?" |
 
-### 🧠 Funcionamiento
+###  Funcionamiento
 
 Cuando el usuario proporciona información, FinUni identifica los datos más importantes y los mantiene temporalmente en su memoria de trabajo.
 
 Si la cantidad de información supera la capacidad establecida, FinUni debe priorizar los datos relacionados con la pregunta actual y con la situación financiera del estudiante.
 
-### 🔄 Regla de Gestión de la RAM
+###  Regla de Gestión de la RAM
 
 > Si la memoria de trabajo alcanza su límite de 7 elementos, FinUni deberá conservar los datos más relevantes para la consulta actual y desplazar la información menos importante o que haya dejado de ser necesaria.
 
-### 💡 Ejemplo
+###  Ejemplo
 
 **Usuario:**
 
@@ -129,18 +129,18 @@ Si la cantidad de información supera la capacidad establecida, FinUni debe prio
 
 FinUni identifica y mantiene temporalmente:
 
-- 💰 Beca: $1.500.000
-- 💰 Ayuda familiar: $300.000
-- 💸 Transporte: $200.000
-- 🎯 Meta: computador
+-  Beca: $1.500.000
+-  Ayuda familiar: $300.000
+-  Transporte: $200.000
+-  Meta: computador
 
 Estos datos pueden utilizarse para calcular el presupuesto y generar recomendaciones de ahorro.
 
-### 🎯 Objetivo
+###  Objetivo
 
 La memoria de trabajo permite que FinUni mantenga el contexto necesario durante una conversación, evitando sobrecargar el sistema con información irrelevante.
 
-# 🚀 Fase 4: Diseñando la Voz y la Pragmática de FinUni
+#  Fase 4: Diseñando la Voz y la Pragmática de FinUni
 
 Esta fase define cómo se comunica FinUni con los estudiantes universitarios, cómo interpreta mensajes ambiguos y cómo responde ante situaciones financieras positivas o difíciles.
 
@@ -148,7 +148,7 @@ FinUni es un asistente de inteligencia artificial especializado en educación fi
 
 ---
 
-# 🗣️ Semana 10 — La Voz del Agente
+#  Semana 10 — La Voz del Agente
 
 ## 4. Protocolo de Comunicación
 
@@ -184,7 +184,7 @@ Definir las reglas de comunicación de FinUni para que sus respuestas sean clara
 
 ---
 
-# 🧩 Semana 11 — Leyendo entre Líneas
+#  Semana 11 — Leyendo entre Líneas
 
 ## 5. Detector de Ambigüedad y Sarcasmo
 
@@ -248,7 +248,7 @@ Evitar respuestas inadecuadas mediante el análisis del contexto, la intención 
 
 ---
 
-# 🎭 Semana 12 — El Guion Maestro
+#  Semana 12 — El Guion Maestro
 
 ## 6. Simulación de Diálogos (Golden Samples)
 
@@ -264,7 +264,7 @@ Presentar conversaciones de ejemplo que demuestren cómo FinUni aplica su person
 
 **FinUni:**
 
-> ¡Excelente que tengas una meta! 💰 Según tus datos, te quedan $200.000 al mes antes de otros gastos no registrados. Podemos establecer una meta de ahorro realista para tu computador.
+> ¡Excelente que tengas una meta!  Según tus datos, te quedan $200.000 al mes antes de otros gastos no registrados. Podemos establecer una meta de ahorro realista para tu computador.
 
 **Usuario:**
 
@@ -337,7 +337,7 @@ El asistente no debe asumir que toda expresión positiva representa felicidad ni
 La finalidad es construir una experiencia conversacional útil, respetuosa y confiable para los estudiantes universitarios.
 
 
-## 🧠 Semana 13 — El Árbol de la Verdad
+##  Semana 13 — El Árbol de la Verdad
 
 ### Árbol de Decisión Principal de FinUni
 
@@ -580,7 +580,7 @@ flowchart TD
     S --> T["FINUNI ENTREGA SU RESPUESTA"]
 ```
 
-### 📊 Prueba práctica del algoritmo
+###  Prueba práctica del algoritmo
 
 **Datos del estudiante:**
 
