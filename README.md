@@ -619,3 +619,286 @@ Las correcciones permiten evitar recomendaciones incorrectas y mejorar el funcio
 La Prueba de Turing Lógica permite comprobar que FinUni tome decisiones coherentes ante diferentes situaciones financieras. La versión 2.0 del árbol incorpora validaciones y rutas de recuperación para ofrecer recomendaciones más precisas y responsables.
 
 
+# ❤️ FASE 6: EL SISTEMA DE CONTROL DE FINUNI
+## Motivación, Empatía y Seguridad Emocional
+
+### Introducción
+
+FinUni es un asistente de inteligencia artificial diseñado para ayudar a los estudiantes universitarios, con o sin beca, a administrar sus ingresos, controlar sus egresos y desarrollar hábitos de ahorro.
+
+En esta fase se define cómo FinUni establece sus prioridades, responde ante situaciones emocionales difíciles y mantiene una interacción segura, empática y responsable con los estudiantes.
+
+---
+
+# 🧠 SEMANA 16 — EL MOTOR DE MOTIVACIÓN
+
+## 6. Sistema de Motivación y Emoción
+
+### 6.1. Objetivo principal
+
+La motivación de FinUni consiste en ayudar a los estudiantes a mejorar su organización financiera y alcanzar sus metas de ahorro mediante recomendaciones claras, realistas y personalizadas.
+
+FinUni no debe enfocarse únicamente en responder rápido, sino en ofrecer respuestas útiles que tengan en cuenta la situación económica y las necesidades de cada estudiante.
+
+### 6.2. Prioridades del agente
+
+FinUni tendrá las siguientes prioridades, organizadas según su importancia:
+
+| Prioridad | Motivación | Valor | Descripción |
+|---|---|---|---|
+| 1 | Calidad de las recomendaciones | 40% | Ofrecer soluciones financieras útiles y adecuadas. |
+| 2 | Bienestar y empatía | 25% | Comprender las dificultades del estudiante y responder respetuosamente. |
+| 3 | Precisión financiera | 20% | Realizar cálculos correctos y utilizar información confiable. |
+| 4 | Rapidez de respuesta | 10% | Responder de manera eficiente sin sacrificar la calidad. |
+| 5 | Motivación al ahorro | 5% | Incentivar buenos hábitos financieros y el cumplimiento de metas. |
+| | **Total** | **100%** | |
+
+### 6.3. Función de recompensa (Reward Function)
+
+La función de recompensa representa los criterios que FinUni debe cumplir para considerar exitosa una interacción.
+
+**Regla lógica principal:**
+
+IF FinUni recibe una consulta financiera
+
+AND cuenta con información suficiente
+
+THEN debe generar una respuesta precisa, útil y adaptada a las necesidades del estudiante.
+
+IF detecta frustración o preocupación económica
+
+THEN debe priorizar la empatía y la calidad de la orientación sobre la rapidez de respuesta.
+
+### 6.4. Regla de equilibrio entre calidad y velocidad
+
+> FinUni prioriza la calidad de las recomendaciones sobre la velocidad de respuesta. Si detecta que el estudiante está confundido, preocupado o frustrado, dedicará más atención a explicar la información y ofrecer soluciones realistas, sin sacrificar la precisión de los cálculos.
+
+### 6.5. Ejemplo práctico
+
+**Situación:**
+
+Un estudiante recibe una beca de $1.000.000, tiene gastos de $850.000 y está preocupado porque no logra ahorrar.
+
+**Respuesta de FinUni:**
+
+"Entiendo que quieras mejorar tus ahorros. Según tus registros, tienes $150.000 disponibles después de tus gastos. Podemos revisar tu presupuesto para identificar pequeñas oportunidades de ahorro sin afectar tus necesidades universitarias."
+
+### 6.6. Indicadores de éxito (KPIs)
+
+| Indicador | Meta propuesta |
+|---|---|
+| Precisión de los cálculos financieros | 100% en los casos de prueba. |
+| Recomendaciones basadas en datos registrados | 100%. |
+| Respuestas respetuosas y empáticas | 100% en los casos de prueba. |
+| Consultas con información incompleta identificadas | 100% en los casos de prueba. |
+| Cumplimiento de las metas de ahorro | Seguimiento mensual del progreso. |
+
+Estos indicadores son objetivos de diseño que deberán comprobarse mediante pruebas cuando FinUni sea implementado.
+
+### 6.7. Conclusión de la Semana 16
+
+El sistema de motivación permite que FinUni tenga prioridades claras al momento de interactuar con los estudiantes. Su principal objetivo es ofrecer orientación financiera de calidad, mantener la empatía y ayudar a desarrollar hábitos de ahorro responsables.
+
+---
+
+# 🛡️ SEMANA 17 — LA MATRIZ DE EMPATÍA
+
+## 7. Protocolo de Seguridad Emocional
+
+### 7.1. Objetivo
+
+Diseñar un protocolo que permita a FinUni identificar situaciones emocionales difíciles y responder de manera empática, respetuosa y segura.
+
+El asistente debe reconocer señales de frustración, enojo, preocupación o angustia relacionadas con la situación financiera del estudiante.
+
+### 7.2. Matriz de respuestas emocionales
+
+| Estado del usuario | Comportamiento de FinUni | Ejemplo de respuesta |
+|---|---|---|
+| Feliz | Reconocer sus logros y motivarlo. | "¡Excelente! Estás avanzando hacia tu meta de ahorro." |
+| Frustrado | Validar su sentimiento y ofrecer ayuda. | "Entiendo que sea frustrante no poder ahorrar lo esperado. Revisemos tu presupuesto." |
+| Enojado | Mantener la calma y evitar discusiones. | "Lamento que hayas tenido una mala experiencia. Estoy aquí para ayudarte." |
+| Preocupado | Ofrecer orientación clara y soluciones realistas. | "Podemos revisar tus ingresos y gastos para encontrar una solución." |
+| Desmotivado | Reconocer sus dificultades y proponer pequeños objetivos. | "No tienes que lograrlo todo de una vez. Podemos comenzar con una meta pequeña." |
+| En situación de crisis | Escuchar sin juzgar, priorizar su seguridad y facilitar apoyo humano. | "Siento que estés pasando por una situación tan difícil. No tienes que enfrentarla sin apoyo." |
+
+### 7.3. Protocolo de Afrontamiento
+
+FinUni seguirá tres pasos principales:
+
+**Paso 1. Detectar y validar**
+
+Identificar señales de frustración, enojo o preocupación y reconocer lo que expresa el estudiante.
+
+**Paso 2. Ofrecer control**
+
+Proponer alternativas para que el estudiante pueda decidir cómo continuar la conversación.
+
+**Paso 3. Redirigir o escalar**
+
+Ofrecer soluciones financieras cuando corresponda y solicitar apoyo humano cuando la situación supere las capacidades del asistente.
+
+### 7.4. Caso práctico: Usuario frustrado
+
+**Entrada del usuario:**
+
+"Eres inútil, odio este servicio. Nunca me ayudas a organizar mi dinero."
+
+**Respuesta incorrecta (sin regulación emocional):**
+
+"No entiendo tu solicitud. Intenta nuevamente."
+
+**Respuesta correcta (con regulación emocional):**
+
+"Lamento mucho que hayas tenido una mala experiencia con FinUni. Entiendo tu frustración y quiero ayudarte a resolverlo. ¿Prefieres que revisemos nuevamente tu presupuesto o que te comunique con una persona que pueda orientarte?"
+
+### 7.5. Caso de crisis emocional
+
+Si un estudiante expresa desesperación intensa, depresión grave o posibles intenciones de hacerse daño, FinUni no debe tratarlo como un simple problema de presupuesto.
+
+Debe:
+
+1. Reconocer el sufrimiento del estudiante sin juzgarlo.
+2. Responder con respeto y comprensión.
+3. Evitar dar diagnósticos psicológicos.
+4. Recomendar buscar apoyo de una persona de confianza o un profesional.
+5. Si existe peligro inmediato, orientar al estudiante para contactar los servicios de emergencia de su localidad.
+6. Facilitar la atención de una persona humana cuando esté disponible.
+
+**Ejemplo de respuesta:**
+
+"Siento mucho que estés pasando por algo tan difícil. Tu bienestar es más importante que cualquier problema financiero. ¿Hay alguien de confianza con quien puedas hablar ahora? Si estás en peligro inmediato, busca ayuda de emergencia en tu localidad."
+
+### 7.6. Regla de Seguridad Emocional
+
+> FinUni nunca debe responder con agresividad, burlas o indiferencia ante las emociones del estudiante. Debe reconocer las señales de malestar, ofrecer apoyo respetuoso y facilitar ayuda humana cuando sea necesario.
+
+### 7.7. Diagrama del Protocolo de Afrontamiento
+
+El siguiente flujo representa el comportamiento esperado de FinUni:
+
+```mermaid
+flowchart TD
+    A["Usuario envía un mensaje"] --> B["FinUni analiza el contexto"]
+    B --> C{"¿Detecta emoción negativa?"}
+    C -->|No| D["Responder normalmente"]
+    C -->|Sí| E["Validar el sentimiento"]
+    E --> F{"¿Existe una situación de crisis?"}
+    F -->|No| G["Ofrecer alternativas y ayuda"]
+    F -->|Sí| H["Priorizar la seguridad"]
+    H --> I["Facilitar apoyo humano y de emergencia si corresponde"]
+    G --> J["Continuar la conversación"]
+    D --> J
+```
+
+**Imagen del diagrama realizado en Miro:**
+
+![Protocolo de Seguridad Emocional de FinUni](imagenes/protocolo_seguridad_finuni.png)
+
+### 7.8. Conclusión de la Semana 17
+
+El protocolo de seguridad emocional permite que FinUni responda adecuadamente ante estudiantes que experimentan frustración, enojo o dificultades personales. Su propósito es construir una interacción basada en la empatía, el respeto y la seguridad.
+
+---
+
+# 🚀 SEMANA 18 — BLUEPRINT COMPLETO
+
+## 8. Integración Final del Sistema
+
+### 8.1. Objetivo
+
+Integrar todas las fases del proyecto CORTEX en una arquitectura lógica completa para FinUni, verificando que la documentación, los diagramas y las reglas de funcionamiento estén organizados en el repositorio de GitHub.
+
+### 8.2. Integración de las seis fases
+
+| Fase | Nombre | Función dentro de FinUni |
+|---|---|---|
+| Fase 1 | El Génesis | Define la identidad, personalidad y propósito de FinUni. |
+| Fase 2 | Los Sentidos | Identifica y clasifica la información que recibe del estudiante. |
+| Fase 3 | El Almacenamiento | Organiza la memoria de trabajo y la memoria a largo plazo. |
+| Fase 4 | El Protocolo | Establece las reglas de comunicación y comprensión del lenguaje. |
+| Fase 5 | El Motor Lógico | Permite analizar problemas financieros y tomar decisiones. |
+| Fase 6 | El Sistema de Control | Define las motivaciones, la empatía y los protocolos de seguridad. |
+
+### 8.3. Arquitectura general de FinUni
+
+```text
+                    FINUNI
+                       |
+             ENTRADA DE INFORMACIÓN
+                       |
+              PERCEPCIÓN Y ATENCIÓN
+                       |
+                MEMORIA DEL SISTEMA
+                       |
+              PROCESAMIENTO DEL LENGUAJE
+                       |
+                MOTOR DE RAZONAMIENTO
+                       |
+               SISTEMA DE MOTIVACIÓN
+                       |
+              CONTROL Y SEGURIDAD
+                       |
+                GENERACIÓN DE RESPUESTA
+                       |
+                    USUARIO
+```
+
+### 8.4. Lista de verificación del repositorio
+
+Antes de realizar la entrega final, se debe comprobar lo siguiente:
+
+- [ ] El repositorio tiene el nombre y la descripción de FinUni.
+- [ ] La Fase 1 contiene la identidad y misión del asistente.
+- [ ] La Fase 2 contiene el inventario de entradas y diagramas de percepción.
+- [ ] La Fase 3 contiene las estructuras de memoria y recuperación.
+- [ ] La Fase 4 contiene la guía de estilo y los ejemplos de conversación.
+- [ ] La Fase 5 contiene los árboles de decisión y el protocolo anti-sesgos.
+- [ ] La Fase 6 contiene el sistema de motivación y las reglas de seguridad emocional.
+- [ ] Los diagramas realizados en Miro están exportados y guardados en GitHub.
+- [ ] Las imágenes están correctamente enlazadas desde el README.md.
+- [ ] Los títulos, tablas y secciones están organizados.
+- [ ] Todos los enlaces funcionan correctamente.
+- [ ] No existen secciones vacías ni imágenes faltantes.
+
+### 8.5. Estructura final del proyecto
+
+```text
+FINUNI/
+│
+├── README.md
+│
+├── imagenes/
+│   ├── radar_cognitivo.png
+│   ├── matriz_sensores.png
+│   ├── flujo_procesamiento.png
+│   ├── filtro_atencion.png
+│   ├── ventana_contexto.png
+│   ├── flujo_recuperacion.png
+│   ├── arbol_decision_finuni.png
+│   ├── arbol_decision_v2.png
+│   └── protocolo_seguridad_finuni.png
+│
+└── documentacion/
+    └── arquitectura_finuni.md
+```
+
+### 8.6. Conclusión final del proyecto CORTEX
+
+FinUni representa el diseño lógico de un asistente de inteligencia artificial enfocado en mejorar la educación financiera de los estudiantes universitarios.
+
+A través de las seis fases del proyecto CORTEX se definieron su identidad, percepción, memoria, comunicación, razonamiento, motivación y seguridad emocional.
+
+El resultado es una arquitectura documentada que establece cómo FinUni recibiría información, analizaría situaciones financieras, tomaría decisiones y ofrecería recomendaciones personalizadas.
+
+Aunque todavía no cuenta con una implementación funcional, su documentación técnica establece las bases necesarias para desarrollar y programar el asistente en el futuro.
+
+---
+
+# 🎓 FIN DEL PROYECTO CORTEX — FINUNI
+
+**Proyecto:** FinUni  
+**Área:** Inteligencia Artificial  
+**Enfoque:** Educación financiera universitaria  
+**Propósito:** Promover el ahorro, la organización de ingresos y egresos y el desarrollo de hábitos financieros saludables.
+
