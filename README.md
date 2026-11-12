@@ -619,7 +619,7 @@ Las correcciones permiten evitar recomendaciones incorrectas y mejorar el funcio
 La Prueba de Turing Lógica permite comprobar que FinUni tome decisiones coherentes ante diferentes situaciones financieras. La versión 2.0 del árbol incorpora validaciones y rutas de recuperación para ofrecer recomendaciones más precisas y responsables.
 
 
-# ❤️ FASE 6: EL SISTEMA DE CONTROL DE FINUNI
+#  FASE 6: EL SISTEMA DE CONTROL DE FINUNI
 ## Motivación, Empatía y Seguridad Emocional
 
 ### Introducción
@@ -630,7 +630,7 @@ En esta fase se define cómo FinUni establece sus prioridades, responde ante sit
 
 ---
 
-# 🧠 SEMANA 16 — EL MOTOR DE MOTIVACIÓN
+#  SEMANA 16 — EL MOTOR DE MOTIVACIÓN
 
 ## 6. Sistema de Motivación y Emoción
 
@@ -701,7 +701,7 @@ El sistema de motivación permite que FinUni tenga prioridades claras al momento
 
 ---
 
-# 🛡️ SEMANA 17 — LA MATRIZ DE EMPATÍA
+#  SEMANA 17 — LA MATRIZ DE EMPATÍA
 
 ## 7. Protocolo de Seguridad Emocional
 
@@ -801,7 +801,7 @@ El protocolo de seguridad emocional permite que FinUni responda adecuadamente an
 
 ---
 
-# 🚀 SEMANA 18 — BLUEPRINT COMPLETO
+#  SEMANA 18 — BLUEPRINT COMPLETO
 
 ## 8. Integración Final del Sistema
 
