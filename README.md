@@ -895,7 +895,7 @@ Aunque todavía no cuenta con una implementación funcional, su documentación t
 
 ---
 
-# 🎓 FIN DEL PROYECTO CORTEX — FINUNI
+#  FIN DEL PROYECTO CORTEX — FINUNI
 
 **Proyecto:** FinUni  
 **Área:** Inteligencia Artificial  
